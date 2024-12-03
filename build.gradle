@@ -22,7 +22,7 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-data-redis'
     implementation 'org.springframework.boot:spring-boot-starter-web'
 
-    implementation 'org.redisson:redisson-spring-boot-starter:3.17.4'
+    implementation 'org.redisson:redisson-spring-boot-starter:3.29.0'
 
     runtimeOnly 'com.mysql:mysql-connector-j'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'

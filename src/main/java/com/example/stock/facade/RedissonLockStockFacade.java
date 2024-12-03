@@ -10,9 +10,9 @@ import java.util.concurrent.TimeUnit;
 @Component
 public class RedissonLockStockFacade {
 
-    private RedissonClient redissonClient;
+    private final RedissonClient redissonClient;
 
-    private StockService stockService;
+    private final StockService stockService;
 
     public RedissonLockStockFacade(RedissonClient redissonClient, StockService stockService) {
         this.redissonClient = redissonClient;
